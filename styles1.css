@@ -2,7 +2,9 @@ html, body, h1, h2, p, ul, li, button, form, input, textarea {
     margin: 0;
     padding: 0;
 }
-
+html{
+    background-image: url(seamlesspatterns1.jpg);
+}
 /* Ustawienia kolorów */
 :root {
     --main-color: rgb(231, 231, 231);
@@ -163,6 +165,8 @@ main {
 }
 
 #offer {
+    border: solid 3px rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
     color: var(--main-color);
     text-align: center;
     padding-top: 3rem;
@@ -173,6 +177,8 @@ main {
 }
 
 #about {
+    border: solid 3px rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
     color: var(--main-color);
     text-align: center;
     padding-top: 3rem;
@@ -183,6 +189,8 @@ main {
 }
 
 #service {
+    border: solid 3px rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
     color: var(--main-color);
     text-align: center;
     padding-top: 3rem;
@@ -339,4 +347,45 @@ footer {
     text-align: center;
     margin: 0;
     color: var(--nav-secondary-color);
+}
+@media only screen and (max-width: 620px){
+    .calltoaction {
+        padding-top: 20px;
+        display: block;
+    }
+    
+    #offer {
+        color: var(--main-color);
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        z-index: 3;
+        background: var(--first-color); /* kolor tylko dla demonstracji */
+    }
+    
+    #about {
+        color: var(--main-color);
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        z-index: 2;
+        background: var(--second-color);
+    }
+    
+    #service {
+        color: var(--main-color);
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        z-index: 1;
+        background: var(--third-color);
+    }
+    
+    .capabilities-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        align-items: center;
+        justify-items: center;
+    }
 }

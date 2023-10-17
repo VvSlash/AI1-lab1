@@ -152,6 +152,7 @@ nav ul {
 
 /* Styl sekcji "O nas" */
 #about {
+    border: 5px dotted;
     color: var(--nav-primary-color);
     text-align: center;
     padding: 3rem 0;
@@ -160,6 +161,7 @@ nav ul {
 
 /* Styl sekcji "Oferta" */
 #offer {
+    border: 5px dotted;
     color: var(--nav-primary-color);
     text-align: center;
     padding: 3rem 0;
@@ -168,6 +170,7 @@ nav ul {
 
 /* Styl sekcji "Obsługa" */
 #service {
+    border: 5px dotted;
     color: var(--nav-primary-color);
     text-align: center;
     padding: 3rem 0;
@@ -248,8 +251,9 @@ button:hover {
 /* Styl formularza kontaktowego */
 .contact {
     padding: 20px;
-    color: var(--nav-primary-color);
+    color: white;
     background-color: var(--first-color);
+    background-image: url(seamlesspatterns2.jpg);
     text-align: center;
 }
 
@@ -304,4 +308,36 @@ footer {
 
 .footer-links ul li a:hover {
     color: var(--accent-color);
+}
+@media only screen and (max-width: 620px){
+    
+    
+    .capabilities-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        align-items: center;
+        justify-items: center;
+    }
+    .navbar {
+        
+        width: 150px;
+    }
+    main {
+        margin-left: 0 auto;
+        margin-right: 150px;
+        background-color: var(--main-color);
+    }
+    .contact form input{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .footer-logo img {
+        max-width: 100px;
+        height: auto;
+        fill: var(--nav-primary-color);
+    }
+    footer {
+        margin-right: 150px;
+    }
 }
