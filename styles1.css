@@ -388,4 +388,8 @@ footer {
         align-items: center;
         justify-items: center;
     }
+    .contact form input{
+        max-width: 80%;
+        margin: 0 auto;
+    }
 }
