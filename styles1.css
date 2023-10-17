@@ -16,6 +16,7 @@ html, body, h1, h2, p, ul, li, button, form, input, textarea {
     text-align: center;
 }
 .hone { 
+    font-stretch: extra-expanded;
     color: red;
     display: block;
     font-size: 2em;
@@ -24,6 +25,7 @@ html, body, h1, h2, p, ul, li, button, form, input, textarea {
     font-weight: bold;
   }
   .htwo { 
+    font-stretch: extra-expanded;
     color: green;
     display: block;
     font-size: 1.5em;
@@ -32,6 +34,7 @@ html, body, h1, h2, p, ul, li, button, form, input, textarea {
     font-weight: bold;
   }
   .hthree { 
+    font-stretch: extra-expanded;
     color: blue;
     display: block;
     font-size: 1.25em;
