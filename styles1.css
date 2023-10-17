@@ -17,6 +17,7 @@ html, body, h1, h2, p, ul, li, button, form, input, textarea {
 }
 .hone { 
     font-stretch: extra-expanded;
+    font-family: sans-serif;
     color: red;
     display: block;
     font-size: 2em;
@@ -25,6 +26,7 @@ html, body, h1, h2, p, ul, li, button, form, input, textarea {
     font-weight: bold;
   }
   .htwo { 
+    font-family: sans-serif;
     font-stretch: extra-expanded;
     color: green;
     display: block;
@@ -34,6 +36,7 @@ html, body, h1, h2, p, ul, li, button, form, input, textarea {
     font-weight: bold;
   }
   .hthree { 
+    font-family: sans-serif;
     font-stretch: extra-expanded;
     color: blue;
     display: block;
@@ -56,11 +59,11 @@ html, body, h1, h2, p, ul, li, button, form, input, textarea {
 
 ul.a {
     list-style: inside;
-    list-style-type: disc;
+    list-style-type: square;
 }
 ol.b {
     list-style: inside;
-    list-style-type: upper-roman;
+    list-style-type:decimal;
 }
 
 main {
